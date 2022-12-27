@@ -89,6 +89,9 @@ const Dashboard = () => {
                                 <li>
                                     <Link className='hover:text-primary active:text-primary focus:text-primary px-1' to="/dashboard/makeAdmin">Make Admin</Link>
                                 </li>
+                                <li>
+                                    <Link className='hover:text-primary active:text-primary focus:text-primary px-1' to="/dashboard/income">All Income</Link>
+                                </li>
                             </ul>
                         )}
 

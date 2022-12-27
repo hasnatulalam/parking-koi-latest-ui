@@ -8,6 +8,7 @@ import Header from "../Header/Header";
 import ParkingList from "../ParkingList/ParkingList";
 import Reviews from "../reviewSection/reviews/Reviews";
 
+
 import "./HomePage.css"
 
 
@@ -26,6 +27,7 @@ const HomePage = () => {
 
       <About></About>
       <Reviews></Reviews>
+      
 
       <Contact></Contact>
       <Footer></Footer>

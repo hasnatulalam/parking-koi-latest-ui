@@ -1,5 +1,6 @@
 import React from 'react';
 import startup from '../../assets/images/startup.png'
+import car from '../../assets/images/million-job.png'
 
 const About = () => {
   return (
@@ -7,12 +8,12 @@ const About = () => {
       <div class="container mx-auto  text-gray-600 px-4 md:px-5 lg:px-6">
         <div class="space-y-6 md:space-y-0 md:flex md:gap-3 lg:items-center lg:gap-10">
           <div class="md:w-9/12 lg:w-5/12">
-            <img src={startup} className="w-full" alt="tree" loading="lazy" width="" height="" />
+            <img src={car} className="w-full" alt="tree" loading="lazy" width="" height="" />
           </div>
           <div class="md:w-6/12 lg:w-6/12">
-            <h2 class="text-2xl text-gray-900 font-bold md:text-2xl lg:text-4xl">Nuxt development is carried out by passionate developers</h2>
-            <p class="mt-6 text-gray-600"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repellat porro. At minima consequuntur in incidunt ullam quasi eos architecto dolor, deleniti sed libero! </p>
-            <p class="mt-4 text-gray-600"> Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
+            <h2 class="text-2xl text-gray-900 font-bold md:text-2xl lg:text-4xl">Book Daily  Parking Slot</h2>
+            <p class="mt-6 text-gray-600">We have allotted daily parking places for you all over Dhaka, Chiitagong & Sylhet. We maintain strict quality control before we secure a parking place for you Moreover, our field workers do weekly basis check up on the parking places. As a host you can earn 4000-5500 TK from renting one parking place </p>
+            
           </div>
         </div>
       </div>

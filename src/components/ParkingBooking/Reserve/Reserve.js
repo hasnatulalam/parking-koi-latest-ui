@@ -95,14 +95,14 @@ const Reserve = ({ setOpen, parkingSlotId }) => {
             <div className="rDesc">{item.desc}</div>
             
             <div className="rMax">
-            {/* Max people: <b>{item.maxPeople}</b> */}
+         
             </div>
              <div className="rPrice">${days * item.price }</div> 
 
           </div>
-          <div className="rSelectRooms">
+          <div className="rSelectSloot">
             {item.slotNumbers.map((slotNumber) => (
-              <div className="room">
+              <div className="slootNumber">
                 <label>{slotNumber.number}</label>
                
                 <input

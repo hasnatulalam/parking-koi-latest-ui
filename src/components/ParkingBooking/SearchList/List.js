@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { format } from "date-fns";
 import { DateRange } from "react-date-range";
 import SearchItem from "../SearchItem/SearchItem"
+
 import useFetch from "../../hooks/useFetch";
 import axios from "axios"
 
@@ -87,15 +88,7 @@ const List = () => {
                     className="lsOptionInput"
                   />
                 </div>
-                <div className="lsOptionItem">
-                  <span className="lsOptionText">Room</span>
-                  <input
-                    type="number"
-                    min={1}
-                    className="lsOptionInput"
-                    placeholder={options.room}
-                  />
-                </div>
+                
               </div>
             </div>
             {/* <button onClick={handleClick} className="rounded">Search</button> */}

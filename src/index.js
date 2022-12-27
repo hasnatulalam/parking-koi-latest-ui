@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import { UserProvider } from './components/context/Context';
 import { SearchContextProvider } from './components/context/SearchContext';
+
 import './index.css';
 
 
@@ -19,7 +20,9 @@ root.render(
     
    
 
-    <App />
+    
+      <App />
+    
   
      
   

@@ -37,10 +37,12 @@ const Login = () => {
         window.localStorage.setItem("auth", JSON.stringify(response.data.isUser))
 
         alert(response.data.message);
+        navigate("/")
       }
 
     } catch (error) {
       alert(error.response.data.message);
+
     }
   };
 

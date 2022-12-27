@@ -27,7 +27,7 @@ const Review = (props) => {
                                 </div>
                                 <div>
                                     <h2 className="card-title">{name}</h2>
-                                    <p>{rating}</p>
+                                   
                                 </div>
                             </div>
                             <div className='flex justify-end'>

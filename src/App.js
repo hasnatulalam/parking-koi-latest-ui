@@ -21,7 +21,11 @@ import AllParkingSlot from "./components/Admin/AllParkingSlot/AllParkingSlot";
 import Contact from "./components/Home/Contact/Contact";
 import WelcomeUser from "./components/Shared/dashboard/WelcomeUser";
 import MyBooking from "./components/User/MyBooking/MyBooking";
-/* import Map from "./components/Home/Map/Map" */
+import Income from "./components/Admin/AllIncome/Income"
+
+/* import Stream from "./components/Chat/Stream/Stream.js"; */
+ import Map from "./components/Home/Map/Map"  
+ import { ChakraProvider, theme } from '@chakra-ui/react'
 
 
 
@@ -35,13 +39,13 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Parking" element={<List />} />
-        <Route path="/Parking/:id" element={<SingleSearchItem />} />
-        <Route path="/pay" element={<StripePayment />} />
+        <Route path="/Parking/:id" element={<SingleSearchItem></SingleSearchItem>}/>
+        <Route path="/pay" element={ <StripePayment />} />
         <Route path="/register" element={<Register />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard></Dashboard>} />
-      {/*   <Route path ="/map" element ={<Map></Map>}/> */}
+          <Route path ="/map" element ={<ChakraProvider theme={theme}><Map></Map></ChakraProvider>}/>  
 
         {/* <Route path='dashboard' element={<Dashboard></Dashboard>}>
           <Route index element={<UserAppointments></UserAppointments>}></Route>
@@ -60,6 +64,7 @@ function App() {
           <Route path="makeAdmin" element={<MakeAdmin />} />
           <Route path="AllParking" element={<AllParking />} />
           <Route path="AllParkingSlot" element={<AllParkingSlot />} />
+          <Route path="income" element={<Income />} />
         </Route>
         <Route path="/reset-password" element={<ForgetPassword />} />
         <Route path="/user/reset/:id/:token" element={<ChangePassword />} />

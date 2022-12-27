@@ -1,0 +1,9 @@
+.Chat__wrapper {
+  
+    display: flex;
+    flex: 1;
+    /* height: 800px; */
+    height: 100%;
+    /* border-radius: 16px; */
+  
+  }
